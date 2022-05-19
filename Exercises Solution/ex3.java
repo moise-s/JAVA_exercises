@@ -1,3 +1,5 @@
+// Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. Para idade inferior a 5, deverá mostrar mensagem.
+
 import java.util.Scanner;
 
 public class ex3 {

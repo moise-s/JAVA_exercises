@@ -1,3 +1,5 @@
+// Faça um programa que receba a idade e o peso de uma pessoa. De acordo com a tabela a seguir, verifique e mostre em qual grupo de risco essa pessoa se encaixa.
+
 import java.util.Scanner;
 
 public class ex2 {
