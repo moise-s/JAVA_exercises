@@ -1,3 +1,12 @@
+// Faça um programa que receba:
+// O código do produto comprado; e
+// A quantidade comprada do produto.
+// Calcule e mostre:
+// O preço unitário do produto comprado, seguindo a Tabela abaixo;
+// O preço total da nota;
+// O valor do desconto, seguindo a Tabela abaixo e aplicado sobre o preço total da nota; e
+// O preço final da nota depois do desconto
+
 import java.util.Scanner;
 
 public class ex2SWITCH {

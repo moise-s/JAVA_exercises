@@ -1,3 +1,5 @@
+// Faça um programa que receba o preço de um produto e seu código de origem e mostre sua procedência
+
 import java.util.Scanner;
 
 public class ex3SWITCH {

@@ -1,7 +1,14 @@
+// Escreva um programa que leia as medidas dos lados de um triângulo e escreva se ele é Equilátero, Isósceles ou Escaleno.
+// Sendo que:
+// Triângulo Equilátero: possui os 3 lados iguais.
+// Triângulo Isóscele: possui 2 lados iguais.
+// Triângulo Escaleno: possui 3 lados diferentes.
+
 import java.util.Scanner;
 
-public class ex17 {
+public class ex17 {  
   public static void main(String[] args) {
+
     Scanner input = new Scanner(System.in);
 
     int val1, val2, val3;

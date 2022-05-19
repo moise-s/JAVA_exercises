@@ -1,3 +1,5 @@
+// Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+
 import java.util.Scanner;
 
 public class ex9 {
@@ -6,7 +8,7 @@ public class ex9 {
 
     int ano, idade;
 
-    System.out.print ("digite o ano de nascimento: ");
+    System.out.print("digite o ano de nascimento: ");
     ano = input.nextInt();
 
     idade = 2022 - ano;

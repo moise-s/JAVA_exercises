@@ -1,3 +1,5 @@
+// Desenvolva um programa que dados três números inteiros, informe quantos são negativos.
+
 import java.util.Scanner;
 
 public class ex26 {

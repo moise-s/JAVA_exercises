@@ -1,3 +1,5 @@
+// Faça um programa para calcular a tabuada de qualquer número digitado pelo usuário.
+
 import java.util.Scanner;
 
 public class ex2FOR {

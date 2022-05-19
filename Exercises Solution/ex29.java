@@ -1,3 +1,5 @@
+// Desenvolva um programa para determinar a média final e a situação (Aprovado, Reprovado ou Exame) de um aluno em uma disciplina. São dadas as notas de três provas, o número de aulas ministradas e o número de faltas do aluno. Sabe-se que a média final é a média aritmética dessas três provas e que a média para aprovação é 7, menor do que 3 para reprovação e as demais em exame. Entretanto, o aluno estará reprovado se tiver faltado a mais do que 25% das aulas.
+
 import java.util.Scanner;
 
 public class ex29 {

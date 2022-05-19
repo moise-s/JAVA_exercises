@@ -1,3 +1,5 @@
+// Desenvolva um programa que dado um número, imprima uma das mensagens: é múltiplo de 3 ou não é múltiplo de 3. 
+
 import java.util.Scanner;
 
 public class ex23 {

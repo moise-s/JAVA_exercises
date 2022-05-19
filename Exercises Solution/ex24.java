@@ -1,3 +1,5 @@
+// Desenvolva um programa que dado um número, informe se ele é divisível por 3 e por 7.
+
 import java.util.Scanner;
 
 public class ex24 {

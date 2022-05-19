@@ -1,3 +1,5 @@
+// Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
+
 import java.util.Scanner;
 
 public class ex4SWITCH {
