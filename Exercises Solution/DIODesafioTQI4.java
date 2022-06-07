@@ -46,5 +46,6 @@ public class DIODesafioTQI4 {
             }
 
         }
+        leitor.close();
     }
 }

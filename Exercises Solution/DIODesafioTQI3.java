@@ -9,7 +9,6 @@
 // Saída
 // Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
-
 import java.util.*;
 
 public class DIODesafioTQI3 {
@@ -37,5 +36,6 @@ public class DIODesafioTQI3 {
         distance = Math.sqrt((Math.pow(vetor2[0] - vetor1[0], 2)) + (Math.pow(vetor2[1] - vetor1[1], 2)));
         System.out.format("%.4f", distance);
 
+        input.close();
     }
 }

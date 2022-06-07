@@ -40,5 +40,6 @@ public class ex2 {
         System.out.println("seu grupo de risco é: 9");
       }
     }
+    input.close();
   }
 }

@@ -42,5 +42,6 @@ public class DIODesafioTQI2 {
                 System.out.println("0");
             }
         }
+        input.close();
     }
 }
