@@ -2,8 +2,7 @@ public class ex3V2COM {
   public static void main(String[] args) {
 
     // exemplo de vetor a ser inserido
-    int[] vectorIn = new int[] { 87, 89, 1, 55, 5, 8, 5, 2, 13, 2, 9, 3, 87, 3, 2, 1, 5, 2, 2, 9, 1, 989, 13, 77, 2, 1, 8,
-        5, 88, 88, 89, 55, 989 };
+    int[] vectorIn = new int[] { 133, 87, 89, 77, 1, 55, 5, 133, 8, 134, 5, 2, 13, 2, 9, 3, 7, 87, 3, 2, 1, 5, 2, 2, 9, 1, 989, 13, 77, 2, 1, 8, 5, 88, 88, 89, 55, 989, 134 };
 
     // execução da função criada
     int resultado = solution(vectorIn, 31);
