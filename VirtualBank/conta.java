@@ -1,13 +1,20 @@
-public class conta implements ContaAction {
+import java.util.List;
+
+public abstract class Conta implements ContaAction {
 
   private static final int AGENCIA_PADRAO = 1;
   private static int SEQUENCIAL = 1;
 
+  protected int agencia;
+  protected int numero;
+  protected double saldo;
+  protected Cliente cliente;
+
   public Conta(Cliente cliente) {
-		this.agencia = Conta.AGENCIA_PADRAO;
-		this.numero = SEQUENCIAL++;
-		this.cliente = cliente;
-	}
+    this.agencia = Conta.AGENCIA_PADRAO;
+    this.numero = SEQUENCIAL++;
+    this.cliente = cliente;
+  }
 
   @Override
   public void sacar(double valor) {
@@ -20,7 +27,7 @@ public class conta implements ContaAction {
   }
 
   @Override
-  public void transferir(double valor, IConta contaDestino) {
+  public void transferir(double valor, ContaAction contaDestino) {
     this.sacar(valor);
     contaDestino.depositar(valor);
   }
@@ -43,5 +50,4 @@ public class conta implements ContaAction {
     System.out.println(String.format("Numero: %d", this.numero));
     System.out.println(String.format("Saldo: %.2f", this.saldo));
   }
-
 }

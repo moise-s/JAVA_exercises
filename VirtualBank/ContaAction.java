@@ -4,8 +4,13 @@ public interface ContaAction {
 
   void depositar(double valor);
 
-  void transferir(double valor, IConta contaDestino);
+  void transferir(double valor, ContaAction contaDestino);
 
   void imprimirExtrato();
+
+  default void transferir(double valor, Conta conta) {
+    conta.sacar(valor);
+    depositar(valor);
+  }
 
 }

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "JAVA_exercises_9e11b664"
+    },
+    {
+      "type": "java",
       "name": "Launch ex3V2COMnew",
       "request": "launch",
       "mainClass": "ex3V2COMnew",
