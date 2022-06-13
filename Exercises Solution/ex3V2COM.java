@@ -17,6 +17,9 @@ public class ex3V2COM {
 
     // loop para percorrer todo o vetor
     for (int i = 1; i < V.length; i++) {
+
+      // lógica XOR para descobrir o valor único, ex: 2 ^ 2 = 0, logo valor
+      // 'solitário' é encontrado
       valor = valor ^ V[i];
     }
     return valor;
