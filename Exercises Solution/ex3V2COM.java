@@ -1,3 +1,5 @@
+//nova solução, com utilização de lógica XOR
+
 public class ex3V2COM {
   public static void main(String[] args) {
 
@@ -15,7 +17,8 @@ public class ex3V2COM {
   private static int solution(int V[], int N) {
     int valor = V[0];
 
-    // loop para percorrer todo o vetor
+    // loop para percorrer todo o vetor a partir do segundo elemento, já que o
+    // primeiro foi utilizado em 'valor'
     for (int i = 1; i < V.length; i++) {
 
       // lógica XOR para descobrir o valor único, ex: 2 ^ 2 = 0, logo valor
