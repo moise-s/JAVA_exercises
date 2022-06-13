@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ex3V2COMteste2",
+      "request": "launch",
+      "mainClass": "ex3V2COMteste2",
+      "projectName": "JAVA_exercises_9e11b664"
+    },
+    {
+      "type": "java",
+      "name": "Launch ex3V2COMteste",
+      "request": "launch",
+      "mainClass": "ex3V2COMteste",
+      "projectName": "JAVA_exercises_9e11b664"
+    },
+    {
+      "type": "java",
       "name": "Launch main",
       "request": "launch",
       "mainClass": "main",
