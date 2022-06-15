@@ -99,6 +99,6 @@ public class ex2DOWHILE {
     } while (option < 4);
 
     System.out.println("Obrigado por usar o programa!");
-
+    input.close();
   }
 }

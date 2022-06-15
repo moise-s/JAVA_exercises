@@ -26,5 +26,6 @@ public class ex18 {
     } else {
       System.out.println("Triângulo acutângulo");
     }
+    input.close();
   }
 }

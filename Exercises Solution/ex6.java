@@ -25,5 +25,6 @@ public class ex6 {
     }
 
     System.out.println("Levará " + time + " meses para que o valor de João ultrapasse o de Carlos");
+    input.close();
   }
 }

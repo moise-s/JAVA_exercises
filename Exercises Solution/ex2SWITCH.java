@@ -87,6 +87,6 @@ public class ex2SWITCH {
     System.out.println("O preço total da nota é: R$ " + initTotalPrice);
     System.out.println("O valor do desconto é: R$ " + discountedPrice);
     System.out.println("O preço final da compra é: R$ " + finalTotalPrice);
-
+    input.close();
   }
 }

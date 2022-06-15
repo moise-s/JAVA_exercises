@@ -29,6 +29,6 @@ public class ex25 {
     } else {
       System.out.println("Não será possível lhe conceder empréstimo nessas condições :(");
     }
-
+    input.close();
   }
 }

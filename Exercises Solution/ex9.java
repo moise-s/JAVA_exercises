@@ -18,5 +18,6 @@ public class ex9 {
     } else {
       System.out.println("Você não poderá votar esse ano... fica pra próxima");
     }
+    input.close();
   }
 }

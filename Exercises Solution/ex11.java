@@ -19,6 +19,6 @@ public class ex11 {
     }
 
     System.out.println("O valor de sua compra é de: R$ " + value);
-
+    input.close();
   }
 }

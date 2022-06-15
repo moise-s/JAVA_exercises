@@ -23,6 +23,6 @@ public class ex3 {
     } else {
       System.out.println("Você é muito pequeno para nadar :(");
     }
-
+    input.close();
   }
 }

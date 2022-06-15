@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class ex17 {  
+public class ex17 {
   public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
@@ -27,6 +27,6 @@ public class ex17 {
     } else {
       System.out.println("Triângulo Escaleno!");
     }
-
+    input.close();
   }
 }

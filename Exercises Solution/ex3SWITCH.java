@@ -85,5 +85,6 @@ public class ex3SWITCH {
 
     System.out.println("O preço é : R$" + price);
     System.out.println("A origem é: " + origin);
+    input.close();
   }
 }

@@ -31,10 +31,11 @@ public class ex29 {
     // conditions
     if (freq < 75 || media < 3) {
       System.out.println("REPROVADO");
-    } else if (media >=3 && media < 7) {
+    } else if (media >= 3 && media < 7) {
       System.out.println("EXAME");
     } else {
       System.out.println("APROVADO");
     }
+    input.close();
   }
 }

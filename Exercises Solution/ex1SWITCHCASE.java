@@ -80,5 +80,6 @@ public class ex1SWITCHCASE {
     System.out.println("Valor do imposto é: R$ " + tax * initPrice);
     System.out.println("Novo preço é: R$ " + finalPrice);
     System.out.println("A classificação do produto é: " + classification);
+    input.close();
   }
 }

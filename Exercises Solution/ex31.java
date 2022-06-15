@@ -34,6 +34,6 @@ public class ex31 {
     }
 
     System.out.println("O valor a ser pago é de R$ " + valor);
-
+    input.close();
   }
 }

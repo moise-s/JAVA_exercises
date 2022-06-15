@@ -7,14 +7,12 @@
 // b) Qual é a média de veículos nas cinco cidades juntas;
 // c) Qual é a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
 
-import java.util.Scanner;
 
 public class ex3FOR {
   public static void main(String[] args) {
 
     double average1, average2, max, min, value1, value2, value3, acc1, acc2;
     int j1, j2;
-    int[] code = { 1, 2, 3, 4, 5 };
     int[] vehicles = { 45, 665, 6987, 45, 983 };
     int[] accident = { 20, 45, 45, 1, 3 };
 

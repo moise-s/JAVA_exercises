@@ -29,5 +29,6 @@ public class ex16 {
         System.out.println("O maior valor é o " + val3);
       }
     }
+    input.close();
   }
 }

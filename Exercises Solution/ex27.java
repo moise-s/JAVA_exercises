@@ -21,9 +21,10 @@ public class ex27 {
     if (age < 16) {
       System.out.println("Não pode votar");
     } else if (age >= 18 && age < 65) {
-System.out.println("Obrigatório");
-  } else {
-    System.out.println("voto facultativo");
+      System.out.println("Obrigatório");
+    } else {
+      System.out.println("voto facultativo");
+    }
+    input.close();
   }
-}
 }

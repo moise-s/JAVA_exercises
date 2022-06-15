@@ -13,13 +13,13 @@ public class ex24 {
     val1 = input.nextInt();
 
     div3 = val1 % 3;
-div7 = val1 % 7;
+    div7 = val1 % 7;
 
     if (div3 == 0 && div7 == 0) {
       System.out.println("É divisível por 3 e por 7");
     } else {
       System.out.println("Não é divisível por 3 ou por 7");
     }
-
+    input.close();
   }
 }

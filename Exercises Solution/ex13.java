@@ -9,7 +9,7 @@ public class ex13 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    int sexo, i;
+    int sexo;
     double altura, pesoIdeal;
     pesoIdeal = 0;
 
@@ -29,5 +29,6 @@ public class ex13 {
       pesoIdeal = 72.7 * altura - 58;
     }
     System.out.println("Seu peso ideal é de " + pesoIdeal + " Kg");
+    input.close();
   }
 }

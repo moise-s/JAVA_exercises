@@ -12,14 +12,13 @@ public class ex4DOWHILE {
 
     // variables
     int channel, people;
-    double people4, people5, people7, people12, audienceTotal, peopleTotal, audience4, audience5, audience7, audience12;
+    double people4, people5, people7, people12, peopleTotal, audience4, audience5, audience7, audience12;
 
     peopleTotal = 0;
     people4 = 0;
     people5 = 0;
     people7 = 0;
     people12 = 0;
-    audienceTotal = 0;
     audience4 = 0;
     audience5 = 0;
     audience7 = 0;
@@ -56,6 +55,6 @@ public class ex4DOWHILE {
       System.out.println("--- --- --- ---");
 
     } while (channel != 0);
-
+    input.close();
   }
 }

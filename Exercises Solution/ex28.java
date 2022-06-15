@@ -22,7 +22,6 @@ public class ex28 {
     System.out.print("Por favor, digite o ano de nascimento: ");
     yearIn = input.nextInt();
 
-
     if (monthIn == month && day >= dayIn) {
       age = year - yearIn;
       System.out.println("Sua idade é " + age);
@@ -33,6 +32,6 @@ public class ex28 {
       age = year - yearIn - 1;
       System.out.println("Sua idade é " + age);
     }
-
+    input.close();
   }
 }

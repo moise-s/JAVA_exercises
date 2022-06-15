@@ -99,6 +99,6 @@ public class ex5 {
       // INCREMENT CONTER
       i++;
     }
-
+    input.close();
   }
 }

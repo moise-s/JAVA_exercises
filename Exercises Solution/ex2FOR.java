@@ -16,6 +16,6 @@ public class ex2FOR {
       out = i * entry;
       System.out.println("O resultado é " + entry + " x " + i + " = " + out);
     }
-
+    input.close();
   }
 }

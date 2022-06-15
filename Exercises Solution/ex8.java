@@ -19,5 +19,6 @@ public class ex8 {
     } else {
       System.out.println("o maior valor é: " + val2);
     }
+    input.close();
   }
 }

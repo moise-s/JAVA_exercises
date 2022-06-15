@@ -18,6 +18,6 @@ public class ex30 {
       valorVenda = valorCompra * 1.3;
     }
     System.out.println("O valor de venda será: R$ " + valorVenda);
-
+    input.close();
   }
 }

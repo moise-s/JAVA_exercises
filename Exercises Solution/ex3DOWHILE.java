@@ -2,8 +2,6 @@
 
 import java.util.Scanner;
 
-import javax.print.event.PrintEvent;
-
 public class ex3DOWHILE {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
@@ -32,6 +30,6 @@ public class ex3DOWHILE {
     } while (age != 0);
 
     System.out.println("Obrigado por usar o programa!");
-
+    input.close();
   }
 }

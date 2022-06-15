@@ -33,5 +33,6 @@ public class ex12 {
     } else {
       System.out.println(c + " " + b + " " + a);
     }
+    input.close();
   }
 }

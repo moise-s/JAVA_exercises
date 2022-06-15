@@ -41,6 +41,6 @@ public class ex33 {
     }
 
     System.out.println("Sua faixa de risco é: " + imcCat);
-
+    input.close();
   }
 }

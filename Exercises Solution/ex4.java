@@ -23,5 +23,6 @@ public class ex4 {
     salLiquido = 0.93 * salBruto + bonificacao;
 
     System.out.println("Seu salário líquido, contando com bonificação é de: R$" + salLiquido);
+    input.close();
   }
 }

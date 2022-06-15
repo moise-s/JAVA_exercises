@@ -19,6 +19,6 @@ public class ex23 {
     } else {
       System.out.println("Não é divisível por 3");
     }
-
+    input.close();
   }
 }

@@ -37,13 +37,13 @@ public class ex34 {
         doseMg = 500;
       } else if (peso >= 30) {
         doseMg = 750;
-      } 
+      }
     }
 
     // conversion mg -> drop
     gotas = doseMg / 25;
 
     System.out.println("O paciente deverá tomar " + gotas + " gotas!");
-
+    input.close();
   }
 }

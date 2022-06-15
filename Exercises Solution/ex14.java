@@ -39,5 +39,6 @@ public class ex14 {
     } else if (nLados == 5) {
       System.out.println("PENTAGONO");
     }
+    input.close();
   }
 }

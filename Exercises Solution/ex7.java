@@ -33,5 +33,6 @@ public class ex7 {
 
     // FINISH
     System.out.println("Você saiu do programa!");
+    input.close();
   }
 }

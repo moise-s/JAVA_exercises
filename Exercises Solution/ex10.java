@@ -22,5 +22,6 @@ public class ex10 {
         senha = input.nextInt();
       }
     }
+    input.close();
   }
 }

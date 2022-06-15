@@ -6,10 +6,9 @@
 
 public class ex1FOR {
   public static void main(String[] args) {
-    double salarioIni, salarioFinal, aumento;
+    double salarioFinal, aumento;
     int anoIni, anoFim, ano;
 
-    salarioIni = 1000;
     salarioFinal = 1000;
     aumento = 0.015;
     anoIni = 2000;

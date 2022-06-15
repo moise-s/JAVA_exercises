@@ -28,6 +28,6 @@ public class ex35 {
     custoCons = custoFab * distribuicao * imposto;
 
     System.out.println("O custo ao consumidor será de R$  " + custoCons);
-
+    input.close();
   }
 }

@@ -20,9 +20,9 @@ public class ex32 {
 
     if (valorCompra < 10) {
       lucro = 0.7;
-    } else if (valorCompra >=10 && valorCompra < 30) {
+    } else if (valorCompra >= 10 && valorCompra < 30) {
       lucro = 0.5;
-    } else if (valorCompra >=30 && valorCompra < 50) {
+    } else if (valorCompra >= 30 && valorCompra < 50) {
       lucro = 0.4;
     } else {
       lucro = 0.3;
@@ -30,6 +30,6 @@ public class ex32 {
 
     valorVenda = (1 + lucro) * valorCompra;
     System.out.println("O valor a ser vendido é de R$ " + valorVenda);
-
+    input.close();
   }
 }

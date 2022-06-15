@@ -31,5 +31,6 @@ public class ex36 {
     } else {
       System.out.println("Sua bonificação é de R$ 100 !!");
     }
+    input.close();
   }
 }

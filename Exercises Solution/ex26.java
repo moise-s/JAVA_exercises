@@ -27,6 +27,6 @@ public class ex26 {
     } else {
       System.out.println("há 1 número negativo");
     }
-
+    input.close();
   }
 }

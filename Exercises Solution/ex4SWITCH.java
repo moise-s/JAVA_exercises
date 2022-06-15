@@ -47,6 +47,6 @@ public class ex4SWITCH {
 
     // sys out
     System.out.println("O resultado da operação é: " + result);
-
+    input.close();
   }
 }
