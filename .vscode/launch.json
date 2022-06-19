@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ex3COLLECTIONS",
+      "request": "launch",
+      "mainClass": "ex3COLLECTIONS",
+      "projectName": "JAVA_exercises_9e11b664"
+    },
+    {
+      "type": "java",
       "name": "Launch ex1EXCEPTION",
       "request": "launch",
       "mainClass": "ex1EXCEPTION",
