@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ex1EXCEPTION",
+      "request": "launch",
+      "mainClass": "ex1EXCEPTION",
+      "projectName": "JAVA_exercises_9e11b664"
+    },
+    {
+      "type": "java",
       "name": "Launch ex3V2COMteste2",
       "request": "launch",
       "mainClass": "ex3V2COMteste2",
