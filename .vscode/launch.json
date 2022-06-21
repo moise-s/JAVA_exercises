@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ex36",
+      "request": "launch",
+      "mainClass": "ex36",
+      "projectName": "JAVA_exercises_e512f788"
+    },
+    {
+      "type": "java",
       "name": "Launch ex4COLLECTIONS",
       "request": "launch",
       "mainClass": "ex4COLLECTIONS",
