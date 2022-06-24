@@ -5,7 +5,9 @@ import java.util.*;
 
 public class ex5COLLECTIONS {
   public static void main(String[] args) {
-    List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+    List<Integer> list = new ArrayList<>(Arrays.asList(3, 7, 3, -1, 2, 3, 7, 2, 15, 15));
+    int result = contarUnicos(list);
+    System.out.println(result);
 
   }
 
@@ -14,8 +16,8 @@ public class ex5COLLECTIONS {
     Iterator<Integer> i = list.iterator();
 
     while (i.hasNext()) {
-      //Continuar aqui
-      
+      provisorio.add(i.next());
     }
-}
+    return provisorio.size();
+  }
 }
